@@ -64,8 +64,7 @@ class CodeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        binding.btNext.setOnClickListener { view: View ->
+        binding.btNext.setOnClickListener {
             if (isInternetAvailable(requireContext())) {
                 binding.progressBar.isVisible = true
                 if (binding.otpView.text!!.isNotEmpty()) {

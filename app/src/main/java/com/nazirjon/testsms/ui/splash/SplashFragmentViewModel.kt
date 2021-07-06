@@ -16,7 +16,6 @@ class SplashFragmentViewModel : ViewModel() {
 
     // Метод получить get info
     fun getInfo(token: String) {
-        val info : InfoResponse
         val res = remoteService.serviceBuilder.getInfo(token)
             .observeOn(AndroidSchedulers.mainThread())
             .subscribeOn(Schedulers.io())

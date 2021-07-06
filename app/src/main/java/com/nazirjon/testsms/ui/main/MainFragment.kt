@@ -45,6 +45,7 @@ class MainFragment : Fragment() {
         return view
     }
 
+    @Suppress("DEPRECATION")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         binding.btNext.setOnClickListener { view: View ->

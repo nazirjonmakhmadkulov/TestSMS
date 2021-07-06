@@ -25,6 +25,7 @@
         android:layout_marginRight="20dp"
         android:id="@+id/phone"
         android:inputType="phone"
+        android:imeOptions="actionDone"
         app:mask="+7 ### ###-##-##"
         android:textSize="28sp"
         android:textColor="@color/white"

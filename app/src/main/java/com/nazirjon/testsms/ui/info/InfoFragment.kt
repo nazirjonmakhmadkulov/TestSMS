@@ -60,12 +60,12 @@ class InfoFragment : Fragment() {
                             "status ",
                             " ${it}"
                     )
-                    binding.name.text = it.name ?: "Нет данные"
-                    binding.phone.text = it.phone_number ?: "Нет данные"
-                    binding.email.text = it.email ?: "Нет данные"
+                    binding.name.text = it.name
+                    binding.phone.text = it.phone_number
+                    binding.email.text = it.email
                     binding.sex.text = it.sex ?: "Нет данные"
                     binding.birthDay.text = it.birth_day ?: "Нет данные"
-                    binding.rating.text = it.rating.toString() ?: "Нет данные"
+                    binding.rating.text = it.rating.toString()
                 }
             })
         }else{
