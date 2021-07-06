@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import com.nazirjon.currencyvalue.utils.SharedPreference
-import com.nazirjon.currencyvalue.utils.isInternetAvailable
 import com.nazirjon.testsms.R
 import com.nazirjon.testsms.databinding.InfoFragmentBinding
 import com.nazirjon.testsms.databinding.SplashFragmentBinding
+import com.nazirjon.testsms.utils.SharedPreference
+import com.nazirjon.testsms.utils.isInternetAvailable
 
 
 class SplashFragment : Fragment() {

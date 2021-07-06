@@ -12,10 +12,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import com.nazirjon.currencyvalue.utils.SharedPreference
-import com.nazirjon.currencyvalue.utils.isInternetAvailable
 import com.nazirjon.testsms.R
 import com.nazirjon.testsms.databinding.InfoFragmentBinding
+import com.nazirjon.testsms.utils.SharedPreference
+import com.nazirjon.testsms.utils.isInternetAvailable
 
 class InfoFragment : Fragment() {
     companion object {
@@ -60,12 +60,12 @@ class InfoFragment : Fragment() {
                             "status ",
                             " ${it}"
                     )
-                    binding.name.text = it.name
-                    binding.phone.text = it.phone_number
-                    binding.email.text = it.email
-                    binding.sex.text = it.sex
-                    binding.birthDay.text = it.birth_day
-                    binding.rating.text = it.rating.toString()
+                    binding.name.text = it.name ?: "Нет данные"
+                    binding.phone.text = it.phone_number ?: "Нет данные"
+                    binding.email.text = it.email ?: "Нет данные"
+                    binding.sex.text = it.sex ?: "Нет данные"
+                    binding.birthDay.text = it.birth_day ?: "Нет данные"
+                    binding.rating.text = it.rating.toString() ?: "Нет данные"
                 }
             })
         }else{

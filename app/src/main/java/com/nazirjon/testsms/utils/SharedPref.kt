@@ -1,4 +1,4 @@
-package com.nazirjon.currencyvalue.utils
+package com.nazirjon.testsms.utils
 
 import android.content.Context
 import android.content.SharedPreferences
