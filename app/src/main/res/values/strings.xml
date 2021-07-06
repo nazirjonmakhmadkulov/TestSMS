@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestSMS</string>
+    <string name="name">Имя:</string>
+    <string name="phone">Телефон:</string>
+    <string name="email">Еmail:</string>
+    <string name="sex">Пол:</string>
+    <string name="birth_day">День рождения:</string>
+    <string name="rating">Рейтинг:</string>
+    <string name="logout_button_description">logout_button</string>
+    <string name="internet_info">Нет соединения с интернетом, пожалуйста, убидесть что у вас есть интернет и попробуйте заново.</string>
+</resources>
